@@ -1,7 +1,7 @@
 /*
     Problem: Conditional Statements
     Difficulty: Easy
-    Link: https://www.hackerrank.com/challenges/c-tutorial-conditional-if-else
+    Link: https://www.hackerrank.com/challenges/c-tutorial-conditional-if-else/problem
 */
 #include <iostream>
 #include <cstdio>

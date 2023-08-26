@@ -5,7 +5,7 @@
 
 std::vector<int> adj[MAXN+1];
 bool vst[MAXN+1];
-int dist[MAX+1];
+int dist[MAXN+1];
 std::queue<int> queue;
 int d1, d2;
 
@@ -43,7 +43,7 @@ int main(void) {
     }
 
     // Reset visited array.
-    vst.fill(false);
+    std::fill(vst, vst+n+1, false);
 
     // Second BFS.
     vst[d1] = true;

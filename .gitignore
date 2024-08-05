@@ -1,1 +1,5 @@
-scratch
+# scratch space for unfinished solutions
+scratch/
+
+# VSCode configurations
+.vscode/
